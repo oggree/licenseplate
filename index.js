@@ -9,6 +9,8 @@ function LicencePlate(value) {
     if (!(this instanceof LicencePlate)) {
         return new LicencePlate(value);
     }
+    if(typeof value !== "string")
+        value = "";
     var plateValue = optionalMasker.toPattern(value, plateMask).toUpperCase();
     plateValue = plateRegex.test(plateValue) ? plateValue : "";
 

@@ -47,6 +47,38 @@ testValues.push({
         testValue: " ",
         expectedResult: "",
         expectedDbValue: ""
+    }, {
+        testValue: null,
+        expectedResult: "",
+        expectedDbValue: ""
+    }, {
+        testValue: undefined,
+        expectedResult: "",
+        expectedDbValue: ""
+    }, {
+        testValue: false,
+        expectedResult: "",
+        expectedDbValue: ""
+    }, {
+        testValue: true,
+        expectedResult: "",
+        expectedDbValue: ""
+    }, {
+        testValue: {},
+        expectedResult: "",
+        expectedDbValue: ""
+    }, {
+        testValue: [],
+        expectedResult: "",
+        expectedDbValue: ""
+    }, {
+        testValue: function() {},
+        expectedResult: "",
+        expectedDbValue: ""
+    }, {
+        testValue: NaN,
+        expectedResult: "",
+        expectedDbValue: ""
     }
 
 );

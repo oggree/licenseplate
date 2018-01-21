@@ -1,6 +1,6 @@
 {
   "name": "licenceplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Renault Mais Licence Plate Parser & Converter",
   "main": "index.js",
   "scripts": {
