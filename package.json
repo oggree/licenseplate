@@ -1,0 +1,33 @@
+{
+  "name": "licenceplate",
+  "version": "1.0.0",
+  "description": "Renault Mais Licence Plate Parser & Converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renault-turkey/licenseplate.git"
+  },
+  "keywords": [
+    "Renault",
+    "Turkey",
+    "Licence",
+    "Plate",
+    "Plaka"
+  ],
+  "author": "Renault Mais",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renault-turkey/licenseplate/issues"
+  },
+  "homepage": "https://github.com/renault-turkey/licenseplate#readme",
+  "devDependencies": {
+    "chai": "^4.1.2"
+  },
+  "maintainers": [{
+    "name": "Alper Özışık",
+    "email": "alper.ozisik@smartface.io"
+  }]
+}
